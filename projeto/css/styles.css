@@ -1,7 +1,108 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
+header {
+  background-color: #042028;
+  color: #be5a04;
+  padding: 15px;
+  text-align: center;
+}
+
+.card {
+  width: 31%;
+  margin: 1% 1%;
+  display: inline-block;
+  padding: 15px;
+}
+.product-image {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  background-color: #eee;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+h3{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #001A6C;
+}
+
+h4{
+  margin: 10px;
+  font-size: 20px;
+  color: #be5a04;
+}
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#imag-1 {
+  background-image: url("../img/ashe.jpg");
+}
+
+#imag-2 {
+    background-image: url("../img/tristana.jpg");
+  }
+
+  #imag-3 {
+    background-image: url("../img/sett.jpg");
+  }
+
+  #imag-4 {
+    background-image: url("../img/blitz.jpg");
+  }
+
+  #imag-5 {
+    background-image: url("../img/Warwick.jpg");
+  }
+
+  #imag-6 {
+    background-image: url("../img/morgana.jpg");
+  }
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #2a583c;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #147238;
+}
+
+footer {
+  background-color: #042028;
+  color: #be5a04;
+  border-top: 3px solid #232130;
+  text-align: center;
+  padding: 80px;
+}
+
+@media screen and (max-width: 768px){
+   .container{
+      width: 100%;
+      padding: 0;
+   }
+}
